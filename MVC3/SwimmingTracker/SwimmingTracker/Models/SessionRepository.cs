@@ -16,6 +16,186 @@ namespace SwimmingTracker.Models
             #region 2012
             Sessions.Add(new Session
             {
+                Date = new DateTime(2012, 3, 12, 11, 40, 0, DateTimeKind.Local),
+                Duration = "0:40:00",
+                Sets = new List<Set>
+                {
+                    new Set {
+                        DistanceYards = 1000,
+                        Style = Style.Freestyle,
+                        Duration = "17:05",
+                    },
+                    new Set {
+                        DistanceYards = 200,
+                        Style = Style.Breaststroke,
+                        Duration = "4:15",
+                    },
+                    new Set {
+                        DistanceYards = 500,
+                        Style = Style.Freestyle,
+                        Duration = "9:10",
+                    },
+                    new Set {
+                        DistanceYards = 100,
+                        Style = Style.Breaststroke,
+                        Duration = "2:20",
+                    },
+                    new Set {
+                        DistanceYards = 400,
+                        Style = Style.Freestyle,
+                        Duration = "6:40",
+                    },
+                }
+            });
+            Sessions.Add(new Session
+            {
+                Date = new DateTime(2012, 3, 1, 16, 30, 0, DateTimeKind.Local),
+                Duration = "0:40:00",
+                Sets = new List<Set>
+                {
+                    new Set {
+                        DistanceYards = 1000,
+                        Style = Style.Freestyle,
+                        Duration = "18:50",
+                    },
+                    new Set {
+                        DistanceYards = 200,
+                        Style = Style.Breaststroke,
+                        Duration = "4:45",
+                    },
+                    new Set {
+                        DistanceYards = 500,
+                        Style = Style.Freestyle,
+                        Duration = "9:50",
+                    },
+                    new Set {
+                        DistanceYards = 100,
+                        Style = Style.Breaststroke,
+                        Duration = "2:25",
+                    },
+                    new Set {
+                        DistanceYards = 200,
+                        Style = Style.Freestyle,
+                        Duration = "2:00",
+                    },
+                }
+            });
+            Sessions.Add(new Session
+            {
+                Date = new DateTime(2012, 2, 20, 20, 46, 0, DateTimeKind.Local),
+                Duration = "0:44:00",
+                Sets = new List<Set>
+                {
+                    new Set {
+                        DistanceYards = 1000,
+                        Style = Style.Freestyle,
+                        Duration = "16:45",
+                    },
+                    new Set {
+                        DistanceYards = 200,
+                        Style = Style.Breaststroke,
+                        Duration = "4:10",
+                    },
+                    new Set {
+                        DistanceYards = 500,
+                        Style = Style.Freestyle,
+                        Duration = "9:15",
+                    },
+                    new Set {
+                        DistanceYards = 100,
+                        Style = Style.Breaststroke,
+                        Duration = "2:10",
+                    },
+                    new Set {
+                        DistanceYards = 500,
+                        Style = Style.Freestyle,
+                        Duration = "9:10",
+                    },
+                    new Set {
+                        DistanceYards = 100,
+                        Style = Style.Breaststroke,
+                        Duration = "2:30",
+                    },
+                }
+            });
+            Sessions.Add(new Session
+            {
+                Date = new DateTime(2012, 2, 17, 6, 27, 0, DateTimeKind.Local),
+                Duration = "0:51:00",
+                Sets = new List<Set>
+                {
+                    new Set {
+                        DistanceYards = 1000,
+                        Style = Style.Freestyle,
+                        Duration = "17:55",
+                    },
+                    new Set {
+                        DistanceYards = 200,
+                        Style = Style.Breaststroke,
+                        Duration = "4:40",
+                    },
+                    new Set {
+                        DistanceYards = 500,
+                        Style = Style.Freestyle,
+                        Duration = "9:40",
+                    },
+                    new Set {
+                        DistanceYards = 200,
+                        Style = Style.Breaststroke,
+                        Duration = "4:40",
+                    },
+                    new Set {
+                        DistanceYards = 500,
+                        Style = Style.Freestyle,
+                        Duration = "9:35",
+                    },
+                    new Set {
+                        DistanceYards = 200,
+                        Style = Style.Breaststroke,
+                        Duration = "4:20",
+                    },
+                }
+            });
+            Sessions.Add(new Session
+            {
+                Date = new DateTime(2012, 2, 2, 16, 46, 0, DateTimeKind.Local),
+                Duration = "0:47:00",
+                Sets = new List<Set>
+                {
+                    new Set {
+                        DistanceYards = 1000,
+                        Style = Style.Freestyle,
+                        Duration = "17:30",
+                    },
+                    new Set {
+                        DistanceYards = 200,
+                        Style = Style.Breaststroke,
+                        Duration = "4:10",
+                    },
+                    new Set {
+                        DistanceYards = 1000,
+                        Style = Style.Freestyle,
+                        Duration = "18:40",
+                    },
+                    new Set {
+                        DistanceYards = 100,
+                        Style = Style.Breaststroke,
+                        Duration = "2:10",
+                    },
+                    new Set {
+                        DistanceYards = 200,
+                        Style = Style.Freestyle,
+                        Duration = "3:25",
+                    },
+                    new Set {
+                        DistanceYards = 50,
+                        Style = Style.Breaststroke,
+                        Duration = "1:00",
+                    },
+                }
+            });
+            Sessions.Add(new Session
+            {
                 Date = new DateTime(2012, 1, 30, 21, 26, 0, DateTimeKind.Local),
                 Duration = "0:36:00",
                 Sets = new List<Set>
