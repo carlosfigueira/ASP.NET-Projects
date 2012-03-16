@@ -16,6 +16,44 @@ namespace SwimmingTracker.Models
             #region 2012
             Sessions.Add(new Session
             {
+                Date = new DateTime(2012, 3, 16, 12, 16, 0, DateTimeKind.Local),
+                Duration = "0:44:00",
+                Sets = new List<Set>
+                {
+                    new Set {
+                        DistanceYards = 1000,
+                        Style = Style.Freestyle,
+                        Duration = "16:30",
+                    },
+                    new Set {
+                        DistanceYards = 200,
+                        Style = Style.Breaststroke,
+                        Duration = "4:30",
+                    },
+                    new Set {
+                        DistanceYards = 500,
+                        Style = Style.Freestyle,
+                        Duration = "9:00",
+                    },
+                    new Set {
+                        DistanceYards = 100,
+                        Style = Style.Breaststroke,
+                        Duration = "2:10",
+                    },
+                    new Set {
+                        DistanceYards = 500,
+                        Style = Style.Freestyle,
+                        Duration = "9:30",
+                    },
+                    new Set {
+                        DistanceYards = 100,
+                        Style = Style.Breaststroke,
+                        Duration = "2:15",
+                    },
+                }
+            });
+            Sessions.Add(new Session
+            {
                 Date = new DateTime(2012, 3, 12, 11, 40, 0, DateTimeKind.Local),
                 Duration = "0:40:00",
                 Sets = new List<Set>
